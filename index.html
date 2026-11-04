@@ -7,6 +7,7 @@
 <meta name="description" content="xnd-studio.de – Websites aus Dresden. Fair im Preis, sorgsam mit Daten. Kommt bald.">
 <meta name="theme-color" content="#ff7a4d" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#2a1024" media="(prefers-color-scheme: dark)">
+<link rel="preload" href="fonts/league-spartan.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='18' fill='%23fff0e0'/%3E%3Crect x='12' y='13' width='22' height='8' rx='4' fill='%233b1631'/%3E%3Ccircle cx='42' cy='40' r='12' fill='%23ff7a4d'/%3E%3C/svg%3E">
 <style>
@@ -15,6 +16,13 @@
     src: url("fonts/bricolage-grotesque.woff2") format("woff2");
     font-weight: 200 800;
     font-stretch: 75% 100%;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Spartan";
+    src: url("fonts/league-spartan.woff2") format("woff2");
+    font-weight: 100 900;
     font-display: swap;
   }
 
@@ -69,17 +77,18 @@
 
   .brand {
     grid-area: brand; margin: 0;
-    font-size: 1.15rem; font-weight: 700; letter-spacing: -0.01em;
+    font-family: "Spartan", "Bricolage", system-ui, sans-serif;
+    font-size: 1.25rem; font-weight: 700; letter-spacing: -0.02em;
   }
 
   .hero { grid-area: hero; align-self: center; padding: 48px 0; }
   h1 {
     margin: 0;
+    font-family: "Spartan", "Bricolage", system-ui, sans-serif;
     font-size: clamp(4.25rem, 12vw, 12.5rem);
     font-weight: 800;
-    font-stretch: 88%;
-    line-height: .86;
-    letter-spacing: -0.02em;
+    line-height: .88;
+    letter-spacing: -0.035em;
   }
   .hero p {
     margin: clamp(20px, 2.4vw, 32px) 0 0;
@@ -202,7 +211,7 @@
     font-size: 1rem; line-height: 1.6;
   }
   dialog::backdrop { background: rgb(42 16 36 / .55); }
-  dialog h2 { margin: 0 0 12px; font-size: 1.6rem; font-weight: 800; font-stretch: 85%; letter-spacing: -0.02em; }
+  dialog h2 { margin: 0 0 12px; font-family: "Spartan", "Bricolage", sans-serif; font-size: 1.75rem; font-weight: 800; letter-spacing: -0.03em; }
   dialog .hint { font-size: .875rem; color: var(--ink-soft); }
   dialog form { margin-top: 20px; }
   dialog form button {
@@ -254,7 +263,7 @@
 <dialog id="datenschutz" aria-labelledby="ds-title">
   <h2 id="ds-title">Datenschutz</h2>
   <p class="hint">Platzhalter: vor Veröffentlichung ergänzen und rechtlich prüfen.</p>
-  <p>Diese Seite setzt keine Cookies, nutzt kein Tracking und lädt nichts von Drittanbietern. Die Schrift liegt auf diesem Server.</p>
+  <p>Diese Seite setzt keine Cookies, nutzt kein Tracking und lädt nichts von Drittanbietern. Die Schriften liegen auf diesem Server.</p>
   <p>Der Webserver speichert beim Aufruf technisch notwendige Daten (z. B. IP-Adresse, Zeitpunkt) in Logdateien. [Hoster, Speicherdauer und Rechtsgrundlage ergänzen.]</p>
   <p>Verantwortlich: siehe Impressum.</p>
   <form method="dialog"><button>Schließen</button></form>
