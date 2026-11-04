@@ -293,6 +293,7 @@
   <p>Leon Kramer<br>xnd-studio.de<br>Mosczinskystraße 10<br>01069 Dresden</p>
   <p>E-Mail: <a href="mailto:hallo@xnd-studio.de">hallo@xnd-studio.de</a></p>
   <p>Kleinunternehmer gemäß § 19 UStG, daher keine Ausweisung der Umsatzsteuer.</p>
+  <p>Dieses Impressum gilt auch für den Instagram-Account <a href="https://www.instagram.com/xndstudiode/">@xndstudiode</a>.</p>
   <form method="dialog"><button>Schließen</button></form>
 </dialog>
 
@@ -322,6 +323,12 @@
       if (d && d.showModal) d.showModal();
     });
   });
+
+  // Open a legal dialog directly via link, e.g. xnd-studio.de/#impressum
+  (function () {
+    var d = document.getElementById(location.hash.slice(1));
+    if (d && d.tagName === 'DIALOG' && d.showModal) d.showModal();
+  })();
 
   // Gentle parallax: pieces drift with the pointer, by depth.
   (function () {
