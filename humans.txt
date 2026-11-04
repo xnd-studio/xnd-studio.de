@@ -1,0 +1,9 @@
+/* TEAM */
+Gestaltung und Entwicklung: Leon
+Ort: Dresden, Deutschland
+Kontakt: hallo@xnd-studio.de
+
+/* SITE */
+Sprache: Deutsch
+Schriften: League Spartan, Bricolage Grotesque (SIL Open Font License, selbst gehostet)
+Ohne Cookies, ohne Tracking, ohne Drittanbieter

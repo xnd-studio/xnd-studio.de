@@ -1,0 +1,21 @@
+# xnd-studio.de
+
+> xnd-studio.de baut individuell gestaltete Websites mit CMS zu fairen Festpreisen und betreibt sie datenschutzfreundlich auf eigenem Hosting in Deutschland. Sitz ist Dresden. Die Website ist noch im Aufbau, aktuell gibt es nur eine Kommt-bald-Seite.
+
+Wichtige Fakten:
+
+- Angebot: Websites mit CMS als Festpreis-Pakete mit Zusatzmodulen, individuelle Webapps (Login, Datenbank, eigene Logik), Hosting und Wartung in Deutschland
+- Zielgruppen: Vereine und Initiativen, lokale Unternehmen, Selbstständige
+- Versprechen: faire, offen ausgewiesene Festpreise und Datenschutz (keine Google-Dienste, kein Tracking, Hosting in Deutschland)
+- Nicht im Angebot: Onlineshops, Übernahme fremder WordPress-Seiten, reine Social-Media-Betreuung
+- Rechte Personen und Parteien werden nicht als Kunden angenommen
+- Ansprechpartner: Leon, Einzelunternehmer in Dresden
+- Kontakt: hallo@xnd-studio.de
+
+## Seiten
+
+- [Startseite](https://xnd-studio.de/): Kommt-bald-Seite mit Kontakt, Impressum und Datenschutzhinweisen
+
+## Optional
+
+- [Sitemap](https://xnd-studio.de/sitemap.xml)
